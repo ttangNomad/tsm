@@ -1,0 +1,8 @@
+.wipspreadsheet [data-y="0"] {
+  color: var(--dark) !important;
+}
+
+.wipspreadsheet {
+  font-size: 11px;
+}
+
