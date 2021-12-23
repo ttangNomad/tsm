@@ -74,3 +74,5 @@ router.get('/plan/:Planning_No', (req, res) => {
     })
 })
 
+
+module.exports = router;

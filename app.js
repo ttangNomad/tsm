@@ -92,6 +92,8 @@ app.use('/users', usersRouter);
 let uploadImageRouter = require('./routes/bom_main/uploadImage');
 app.use('/image', uploadImageRouter);
 
+let dropdownPlanRouter = require('./routes/injection_planning/dropdown');
+app.use('/plan/dropdown', dropdownPlanRouter);
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}...`);
